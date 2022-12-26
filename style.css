@@ -71,6 +71,7 @@ h1 {
 
 p {
     font-weight: 300;
+    font-size: 3vmin;
 }
 
 h4 {
@@ -86,13 +87,15 @@ h4 {
 
 .about-info {
     margin: 10vmin 0 0 15vmin;
+    width: 90vmin;
 }
 
 .contact-content {
     display: flex;
     justify-content: center;
     margin-top: 30vmin;
-    margin-right: 18vmin
+    margin-right: 18vmin;
+    font-size: 3vmin;
 }
 
 .projects {
@@ -106,6 +109,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5vmin 0;
 }
 
 .row-two {
@@ -114,6 +118,13 @@ h4 {
     align-items: center;
 }
 
-img {
-    
+.project {
+    padding: 0 5vmin;
+    filter: drop-shadow(3vmin 2vmin 1vmin #00000056);
+}
+
+.project:hover {
+    transform: scale(0.9);
+    opacity: .9;
+    filter: none;
 }
