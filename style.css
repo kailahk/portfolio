@@ -92,8 +92,10 @@ h4 {
 
 .about-info {
     margin: 10vmin 0 0 15vmin;
-    width: 100vmin;
+    width: 70vw;
     font-weight: 400;
+    font-size: 2vmin;
+    padding-bottom: 10vmin;
 }
 
 .contact-content {
@@ -139,7 +141,7 @@ h4 {
 }
 
 .contact-body {
-    width: 150vmin;
+    width: 100vw;
     height: 30vmin;
     margin-top: 25vmin;
     margin-right: 60vmin;
