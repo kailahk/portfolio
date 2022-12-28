@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     margin-right: 5vmin;
+    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
 }
 
 .navbarEl {
@@ -12,6 +13,8 @@
     text-align: center;
     padding: 1vmin;
     margin: 1vmin;
+    border-radius: 1vmin;
+    font-size: 2.5vmin;
 }
 
 a {
@@ -50,6 +53,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 5vmin;
+    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
 }
 
 h1 {
@@ -67,6 +71,7 @@ h1 {
 .kk-img {
     margin-left: 20vmin;
     margin-top: 10vmin;
+    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
 }
 
 p {
@@ -87,14 +92,13 @@ h4 {
 
 .about-info {
     margin: 10vmin 0 0 15vmin;
-    width: 90vmin;
+    width: 100vmin;
+    font-weight: 400;
 }
 
 .contact-content {
     display: flex;
     justify-content: center;
-    margin-top: 30vmin;
-    margin-right: 18vmin;
     font-size: 3vmin;
 }
 
@@ -120,11 +124,34 @@ h4 {
 
 .project {
     padding: 0 5vmin;
-    filter: drop-shadow(3vmin 2vmin 1vmin #00000056);
+    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
 }
 
 .project:hover {
     transform: scale(0.9);
-    opacity: .9;
     filter: none;
 }
+
+.social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-body {
+    width: 150vmin;
+    height: 30vmin;
+    margin-top: 25vmin;
+    margin-right: 60vmin;
+}
+
+.social-logo {
+    margin: 3vmin 5vmin;
+    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
+}
+
+.social-logo:hover {
+    transform: scale(0.9);
+    filter: none;
+}
+
