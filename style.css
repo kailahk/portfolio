@@ -4,7 +4,11 @@
     flex-direction: column;
     align-items: center;
     margin-right: 5vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
+}
+
+.navbarEl:hover {
+    transform: scale(0.9);
+    filter: none;
 }
 
 .navbarEl {
@@ -15,6 +19,7 @@
     margin: 1vmin;
     border-radius: 1vmin;
     font-size: 2.5vmin;
+    filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
 a {
@@ -28,13 +33,12 @@ a {
 }
 
 body {
-    background-image: url('https://i.imgur.com/EhjdRid.jpg');
+    background-image: url('https://i.imgur.com/cFs1PHv.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding-bottom: 2vmin;
-    background-repeat: none;
 }
 
 .home-page-content {
@@ -45,7 +49,10 @@ body {
 
 .home-page-info {
     margin-right: 5vmin;
-    width: 55vmin;
+    width:65vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .home-navbar {
@@ -53,7 +60,6 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 5vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
 }
 
 h1 {
@@ -71,7 +77,7 @@ h1 {
 .kk-img {
     margin-left: 20vmin;
     margin-top: 10vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
+    filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
 p {
@@ -91,11 +97,13 @@ h4 {
 }
 
 .about-info {
-    margin: 10vmin 0 0 15vmin;
     width: 70vw;
     font-weight: 400;
     font-size: 2vmin;
-    padding-bottom: 10vmin;
+    padding: 2vmin;
+    background-color: #4e6683c8;
+    line-height: 3vmin;
+    margin: 5vmin 15vmin;
 }
 
 .contact-content {
@@ -126,7 +134,7 @@ h4 {
 
 .project {
     padding: 0 5vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
+    filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
 .project:hover {
@@ -149,7 +157,7 @@ h4 {
 
 .social-logo {
     margin: 3vmin 5vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #0000003d);
+    filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
 .social-logo:hover {
@@ -157,3 +165,7 @@ h4 {
     filter: none;
 }
 
+.github {
+    background-color: white;
+    border-radius: 50%;
+}
