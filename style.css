@@ -1,6 +1,16 @@
 @font-face {
-    font-family: zangezisans09;
+    font-family: zangezisans09-black;
     src: url(./fonts/zangezisans09-black.woff);
+}
+
+@font-face {
+    font-family: zangezisans09-text;
+    src: url(./fonts/zangezisans09-text.woff);
+}
+
+@font-face {
+    font-family: zangezisans09-regular;
+    src: url(./fonts/zangezisans09-regular.woff);
 }
 
 .navbar {
@@ -17,11 +27,12 @@
 }
 
 .navbarEl {
+    font-family: zangezisans09-text;
     background-color: #4E6683;
     width: 15vmin;
     text-align: center;
-    padding: 1vmin;
-    margin: 1vmin;
+    padding: 1.5vmin .5vmin .5vmin .5vmin;
+    margin: .6vmin;
     border-radius: 1vmin;
     font-size: 2.5vmin;
     filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
@@ -37,7 +48,7 @@ a {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-body {
+.home-body {
     background-image: url('https://i.imgur.com/cFs1PHv.jpg');
     background-size: cover;
     height: 100vh;
@@ -46,10 +57,15 @@ body {
     padding-bottom: 2vmin;
 }
 
+body {
+    background-color: #F6F3E4;
+}
+
 .home-page-content {
     display: flex;
     height: 45vmin;
-    margin: 75px 250px;
+    margin: 100px 250px;
+    width: 800px;
 }
 
 .home-navbar {
@@ -62,14 +78,16 @@ body {
 
 h1 {
     font-size: 10vmin;
-    text-align: center;
-    font-family: zangezisans09;
+    text-align: left;
+    color: black;
+    font-family: zangezisans09-black;
 }
 
 .home-headline {
     margin: 0;
-    font-size: 4vmin;
+    font-size: 3.8vmin;
     width: 45vmin;
+    font-family: zangezisans09-text;
 }
 
 .home-headline-and-description {
@@ -82,7 +100,7 @@ h1 {
 .home-description {
     text-align: justify;
     line-height: 8vmin;
-    width: 42vmin;
+    width: 44vmin;
     font-size: 3vmin;
 }
 
@@ -113,46 +131,35 @@ h4 {
     text-align: justify;
     line-height: 20vmin;
     margin-top: 0vmin;
+    color: #F6F3E4;
 }
 
-.about-info {
-    width: 70vw;
-    font-weight: 400;
-    font-size: 2vmin;
+.about-text {
+    width: 75vmin;
+    font-size: 2.5vmin;
     padding: 2vmin;
-    background-color: #4e6683c8;
-    line-height: 3vmin;
-    margin: 5vmin 15vmin;
+    line-height: 4vmin;
+    margin: 0 15vmin;
+    color: black;
+    font-family: zangezisans09-text;
 }
 
 .contact-content {
     display: flex;
     justify-content: center;
     font-size: 3vmin;
+    color: black;
+    font-family: zangezisans09-text;
 }
 
 .projects {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.row-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5vmin 0;
-}
-
-.row-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 5vmin 10vmin;
 }
 
 .project {
-    padding: 0 5vmin;
     filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
@@ -184,26 +191,62 @@ h4 {
     filter: none;
 }
 
-.github {
-    background-color: white;
-    border-radius: 50%;
-}
-
 .smaller {
     font-size: 2vmin;
+    color: black;
+    font-family: zangezisans09-text;
+
 }
 
 .project-text {
     text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 20px;
+    font-size: 2vmin;
 }
 
 .bucket-lister-description {
-    padding: 0 0 0 4vmin;
-    width: 35vmin;
-    margin-top: -7vmin;
+    color: black;
+    font-family: zangezisans09-regular;
+    margin-top: 0px;
+    width: 320px;
 }
 
 .project-description {
+    color: black;
+    font-family: zangezisans09-regular;
     width: 35vmin;
-    padding: 0 2vmin;
+}
+
+.page-title {
+    margin-left: 17vmin;
+
+}
+
+.pickleball {
+    margin-top: 50px;
+}
+
+.gettogether  {
+    margin-top: 40px;
+}
+
+.gettogether-img {
+    margin-top: 40px;
+}
+
+.minesweeper-img {
+    margin-top: -10vmin;
+}
+
+.minesweeper {
+    margin-top: 5vmin;
+}
+
+.gh-project {
+    margin-top: 0;
 }
