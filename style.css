@@ -64,7 +64,7 @@ body {
 .home-page-content {
     display: flex;
     height: 45vmin;
-    margin: 100px 250px;
+    margin: 10vmin 25vmin;
     width: 800px;
 }
 
@@ -154,9 +154,21 @@ h4 {
 
 .projects {
     display: flex;
+    flex-direction: column;
+}
+
+.row-one {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5vmin 10vmin;
+    margin-top: -10vmin;
+}
+
+.row-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vmin;
 }
 
 .project {
@@ -192,10 +204,9 @@ h4 {
 }
 
 .smaller {
-    font-size: 2vmin;
+    font-size: 1.75vmin;
     color: black;
     font-family: zangezisans09-text;
-
 }
 
 .project-text {
@@ -205,21 +216,20 @@ h4 {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 60px;
-    padding: 0 20px;
-    font-size: 2vmin;
+    padding: 0 60px;
 }
 
 .bucket-lister-description {
     color: black;
     font-family: zangezisans09-regular;
     margin-top: 0px;
-    width: 320px;
+    width: 280px;
 }
 
 .project-description {
     color: black;
     font-family: zangezisans09-regular;
-    width: 35vmin;
+    width: 30vmin;
 }
 
 .page-title {
