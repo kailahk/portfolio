@@ -128,9 +128,9 @@ h4 {
 
 .kailah-korsh {
     font-size: 25vmin;
-    text-align: justify;
     line-height: 20vmin;
     margin-top: 0vmin;
+    margin-left: -8vmin;
     color: #F6F3E4;
 }
 
@@ -138,14 +138,14 @@ p.about-text {
     font-size: 2.5vmin;
     padding: 2vmin;
     line-height: 4vmin;
-    margin: 0 5vmin 0 15vmin;
+    margin: 0 5vmin 0 13vmin;
     color: black;
     font-family: zangezisans09-text;
 }
 
 .about {
     display: grid;
-    grid-template-columns: repeat(2, 99vmin);
+    grid-template-columns: repeat(2, 89vmin);
 }
 
 .about > img {
@@ -241,8 +241,7 @@ p.about-text {
 }
 
 .page-title {
-    margin-left: 17vmin;
-
+    margin-left: 15vmin;
 }
 
 .pickleball {
@@ -271,4 +270,34 @@ p.about-text {
 
 .kailah {
     margin-right: 6vmin;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about > img {
+        height: 70vmin;
+        width: 49vmin;
+        margin-left: 14.5vmin;
+    }
+    p.about-text {
+        max-width: 80vmin;
+    }
+    .row-one {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-two {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-page-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .kailah-korsh {
+        max-width: 50vmin;
+    }
 }
