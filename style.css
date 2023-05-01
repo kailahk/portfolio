@@ -33,9 +33,9 @@
     text-align: center;
     padding: 1.5vmin .5vmin .5vmin .5vmin;
     margin: .6vmin;
-    border-radius: 1vmin;
+    border-radius: 2vmin;
     font-size: 2.5vmin;
-    filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
+    filter: drop-shadow(1vmin 1vmin 1vmin #8a8a8a41);
 }
 
 a {
@@ -63,7 +63,7 @@ body {
 
 .home-page-content {
     display: flex;
-    height: 45vmin;
+    height: 50vmin;
     margin: 10vmin 25vmin;
     width: 800px;
 }
@@ -85,23 +85,32 @@ h1 {
 
 .home-headline {
     margin: 0;
-    font-size: 3.8vmin;
-    width: 45vmin;
+    font-size: 3.9vmin;
+    width: 51vmin;
+    padding: 4vmin 0 0 0;
     font-family: zangezisans09-text;
+    letter-spacing: 0vmin;
 }
 
-.home-headline-and-description {
+#home-headline-and-description {
     padding: 0 6vmin;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 10vmin;
+    width: 51vmin
 }
 
 .home-description {
     text-align: justify;
     line-height: 8vmin;
-    width: 44vmin;
+    width: 51vmin;
     font-size: 3vmin;
+}
+
+td {
+    width: 17vmin;
+    height: 8vmin;
 }
 
 .right {
@@ -115,7 +124,12 @@ h1 {
     filter: drop-shadow(1vmin 2vmin 1vmin #8a8a8a41);
 }
 
-p {
+.kk-img:hover {
+    transform: rotate(1turn);
+    transition-duration: 1.5s
+}
+
+p, .home-description {
     font-weight: 300;
     font-size: 3vmin;
 }
@@ -135,8 +149,8 @@ h4 {
 }
 
 p.about-text {
-    font-size: 2.5vmin;
-    padding: 2vmin;
+    font-size: 2.2vmin;
+    padding: 0 2vmin 2vmin 2vmin;
     line-height: 4vmin;
     margin: 0 5vmin 0 13vmin;
     color: black;
@@ -148,7 +162,7 @@ p.about-text {
     grid-template-columns: repeat(2, 89vmin);
 }
 
-.about > img {
+.about>img {
     height: 65vmin;
 }
 
@@ -248,7 +262,7 @@ p.about-text {
     margin-top: 50px;
 }
 
-.gettogether  {
+.gettogether {
     margin-top: 40px;
 }
 
@@ -256,7 +270,8 @@ p.about-text {
     margin-top: 40px;
 }
 
-.minesweeper-img, .mtf-img {
+.minesweeper-img,
+.mtf-img {
     margin-top: -10vmin;
 }
 
@@ -277,31 +292,76 @@ p.about-text {
         display: flex;
         flex-direction: column;
     }
-    .about > img {
+
+    .about>img {
         height: 70vmin;
         width: 49vmin;
         margin-left: 14.5vmin;
     }
+
     p.about-text {
         max-width: 80vmin;
     }
+
     .row-one {
         display: flex;
         flex-direction: column;
     }
+
     .row-two {
         display: flex;
         flex-direction: column;
     }
+
     .home-page-content {
         display: flex;
         flex-direction: column;
+    }
+    .background-readability {
+        background-color: #4e668368;
+        width: 50vmin;
+        align-items: center;
     }
     .kailah-korsh {
         max-width: 50vmin;
     }
 }
 
-#mode-btn, .home-description  {
+#mode-btn,
+.home-description {
     cursor: pointer
+}
+
+#mode-btn {
+    padding: 1vmin;
+    font-family: zangezisans09-text;
+    padding-top: 1.5vmin;
+    padding-bottom: 1vmin;
+    margin: -8vmin 5vmin 0 0;
+    border: .25vmin solid #F6F3E4;
+    border-radius: 2vmin;
+    width: 6vmin;
+    float: right;
+    text-align: center;
+    font-size: 2vmin;
+}
+
+.home-description > a:hover {
+    font-weight: bolder;
+}
+.home-description > span:hover {
+    font-weight: bolder;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+td > a:hover {
+    text-transform: lowercase;
+    font-family: zangezisans09-black;
 }
