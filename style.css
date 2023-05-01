@@ -301,3 +301,7 @@ p.about-text {
         max-width: 50vmin;
     }
 }
+
+#mode-btn, .home-description  {
+    cursor: pointer
+}
