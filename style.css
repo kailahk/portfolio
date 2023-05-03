@@ -89,7 +89,6 @@ h1 {
     width: 51vmin;
     padding: 4vmin 0 0 0;
     font-family: zangezisans09-text;
-    letter-spacing: 0vmin;
 }
 
 #home-headline-and-description {
@@ -140,7 +139,7 @@ h4 {
     margin-bottom: -1vmin;
 }
 
-.kailah-korsh {
+#kailah-korsh {
     font-size: 25vmin;
     line-height: 20vmin;
     margin-top: 0vmin;
