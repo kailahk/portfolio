@@ -305,9 +305,11 @@ p {
     .kailah-korsh {
         max-width: 50vmin;
     }
-
     li {
         width: 25vmin
+    }
+    .project-logo {
+        height: 20vmin
     }
 }
 
