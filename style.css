@@ -158,11 +158,7 @@ p.about-text {
 
 .about {
     display: grid;
-    grid-template-columns: repeat(2, 89vmin);
-}
-
-.about>img {
-    height: 65vmin;
+    grid-template-columns: repeat(2, 76vmin);
 }
 
 .contact-content {
@@ -194,7 +190,7 @@ p.about-text {
 	scroll-snap-type: unset;
 }
 
-li {
+.projects > li {
 	scroll-snap-align: center;
 	display: flex;
     flex-direction: column;
@@ -272,20 +268,10 @@ p {
     height: 5vmin;
 }
 
-.kailah {
-    margin-right: 6vmin;
-}
-
 @media screen and (max-width: 1000px) {
     .about {
         display: flex;
         flex-direction: column;
-    }
-
-    .about>img {
-        height: 70vmin;
-        width: 49vmin;
-        margin-left: 14.5vmin;
     }
 
     p.about-text {
@@ -309,6 +295,13 @@ p {
     }
     .project-logo {
         height: 20vmin
+    }
+    .about-images > img {
+        margin-left: 30vmin;
+    }
+
+    #leo {
+        margin-left: 30vmin !important;
     }
 }
 
@@ -342,4 +335,19 @@ p {
 td > a:hover {
     text-transform: lowercase;
     font-family: zangezisans09-black;
+}
+
+.about-images > img {
+    height: 36vmin;
+    width: 36vmin;
+    border-radius: 50%;
+    padding: 2.6vmin;
+}
+
+#kk {
+    margin-top: 2vmin;
+}
+
+.about-images > img:hover {
+    transform: scale(1.2);
 }
