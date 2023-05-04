@@ -161,7 +161,7 @@ p.about-text {
     grid-template-columns: repeat(2, 76vmin);
 }
 
-.contact-content {
+.contact-content, .contact-content > a {
     display: flex;
     justify-content: center;
     font-size: 2.2vmin;
@@ -302,6 +302,10 @@ p {
 
     #leo {
         margin-left: 30vmin !important;
+    }
+
+    .projects > li {
+        width: 25vmin;
     }
 }
 
